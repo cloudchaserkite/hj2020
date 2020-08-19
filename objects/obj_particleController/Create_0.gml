@@ -6,7 +6,7 @@ depth = -900;
 amber = make_colour_rgb(210, 144, 43);
 part_type_shape(part1, pt_shape_pixel);
 
-part_type_size(part1, 0.1, 2, 0, 0.5);
+part_type_size(part1, 1, 2, 0, 0.5);
 
 part_type_color3(part1, amber, amber, amber);
 
