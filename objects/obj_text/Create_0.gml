@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+draw_set_font(fnt);
 audio_play_sound(textNotification,2,false);
 message_count = 0
 with(obj_text){message_count += 1}
