@@ -26,6 +26,11 @@ if mouseMode == "normal"{
 if place_meeting(x,y,obj_plank){sprite_index = spr_Eye;}
 else if place_meeting(x,y,obj_prop){sprite_index = spr_Eye;}
 else if place_meeting(x,y,obj_itemPickup){sprite_index = spr_hand;}
+else if place_meeting(x,y,obj_plant){sprite_index = spr_Eye;}
+else if place_meeting(x,y,obj_ragdoll){sprite_index = spr_Eye;}
+else if place_meeting(x,y,obj_record){sprite_index = spr_Eye;}
+else if place_meeting(x,y,obj_recordCorrect){sprite_index = spr_Eye;}
+else if place_meeting(x,y,obj_courtYardKey){sprite_index = spr_hand;}
 
 
 else{sprite_index = spr_mouseCursor;}
@@ -39,11 +44,16 @@ if mouseMode == "useItem"{
 		itemID = "Rune";
 	        // code here
 	        break;
+		
 		case "crowbar":
 		itemID = "crowbar";
 		if mouse_check_button_pressed(mb_left){
 		var swing = instance_create_depth(obj_player.x,obj_player.y,-200,obj_swing);
 		}// code here
+	        break;
+		case "Sewing Scissors":
+		itemID = "Sewing Scissors";
+	        // code here
 	        break;
 	    default:
 	        // code here

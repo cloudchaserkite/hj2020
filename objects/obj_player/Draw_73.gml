@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 
-
 vx = camera_get_view_x(view_camera[0])+16+8;
 vy = camera_get_view_y(view_camera[0])+16+8;
 vw = camera_get_view_x(view_camera[0])+480-16-8;
@@ -29,6 +28,15 @@ if inventory[? "invHeld"] != undefined{
 		draw_sprite_ext(spr_crowbar,0,vx,vh,1,1,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
+		case "Sewing Scissors":
+		draw_sprite_ext(spr_scissor,0,vx,vh,1,1,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;
+		case "Courtyard Key":
+		draw_sprite_ext(spr_recordsRoomKey,0,vx,vh,1,1,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;
+		
 	    default:
 	        // code here
 	        break;
@@ -49,6 +57,15 @@ if inventory[? "invOne"] != undefined{
 		draw_sprite_ext(spr_crowbar,0,vw-64-16,vh,1,1,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
+		case "Sewing Scissors":
+		draw_sprite_ext(spr_scissor,0,vw-64-16,vh,1,1,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;
+			
+		case "Courtyard Key":
+		draw_sprite_ext(spr_recordsRoomKey,0,vw-64-16,vh,1,1,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;
 	    default:
 	        // code here
 	        break;
@@ -66,7 +83,16 @@ if inventory[? "invTwo"] != undefined{
 		draw_sprite_ext(spr_crowbar,0,vw-32-8,vh,1,1,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
+		case "Sewing Scissors":
+		draw_sprite_ext(spr_scissor,0,vw-32-8,vh,1,1,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;
+		case "Courtyard Key":
+		draw_sprite_ext(spr_recordsRoomKey,0,vw-32-8,vh,1,1,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;	
 	    default:
+		
 	        // code here
 	        break;
 	}
@@ -82,7 +108,15 @@ if inventory[? "invThree"] != undefined{
 		draw_sprite_ext(spr_crowbar,0,vw,vh,1,1,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
+	    case "Sewing Scissors":
+		draw_sprite_ext(spr_scissor,0,vw,vh,1,1,0,c_white,1);//Item Slot Held
+	        // code here
 	        break;
+		case "Courtyard Key":
+		draw_sprite_ext(spr_recordsRoomKey,0,vw,vh,1,1,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;	
+	    default:
 	    default:
 	        // code here
 	        break;

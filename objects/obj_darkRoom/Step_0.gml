@@ -8,7 +8,8 @@ if (surface_exists(surf)){
 	
 	gpu_set_blendmode(bm_subtract);
 	draw_set_color(c_white);
-	/*with obj_itemPickup{
+	with obj_itemPickup{
+		draw_self();
 	#region //obj_itemPickup Redraw
 	
 		var vx = camera_get_view_x(view_camera[0])+64;
@@ -33,7 +34,7 @@ if (surface_exists(surf)){
 					draw_text_transformed(vx-8,vy+128+16,">",.4,.4,0);
 					break;}}
 	#endregion
-					}*/
+					}
 	with obj_player{
 	
 	#region // obj_playerRedraw

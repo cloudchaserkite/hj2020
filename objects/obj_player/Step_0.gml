@@ -39,7 +39,11 @@ depth = -y;
 	
 	
 		}
-		if isMoving == true{image_speed = .5; sprite_index = spr_player;}
+		if isMoving == true{image_speed = .5; sprite_index = spr_player; 
+			if room == rmEntrance and !audio_is_playing(snd_step){
+			audio_play_sound(snd_step,3,false);
+			
+			}}
 		if !keyW and !keyA and !keyS and !keyD{isMoving = false;}
 		if isMoving == false{image_speed = .25; sprite_index = spr_AlyssaIdle;}
 		#endregion
@@ -86,8 +90,8 @@ else if keyThree{
 #endregion
 
 #region // Manage Music
-if room == room0 and !audio_is_playing(bgmClosureExplore){
-audio_play_sound(bgmClosureExplore,2,true);
+if room == rmEntrance and !audio_is_playing(bgmClosureBirdsWoodsOutside){
+audio_play_sound(bgmClosureBirdsWoodsOutside,2,true);
 
 }
 

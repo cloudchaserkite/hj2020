@@ -16,3 +16,10 @@ invFull = false;
 nextEmpty = "none";
 #endregion
 image_speed = .25;
+
+
+#region //eventTrigger
+lobbySeen = false;
+ragDollSeen = false;
+recordSeen = false;
+#endregion

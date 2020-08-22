@@ -1,0 +1,10 @@
+depth = -1000;
+message[0] = "The door is jammed.";
+message[1] = "I think this is a closet though.";
+message[2] = "Just a closet.";
+message[3] = "The door won't open anyway.";
+lockID = "none";
+initCheckSwitch = true;
+lockStatus = true;
+visible = false;
+message_end = 1;

@@ -11,7 +11,7 @@ message[2] = "I better have a look around and see if I can find anyone...";
 
 
 message_current = 0; //0 is the first number in our array, and the message we are currently at
-message_end = 2; //this defines what the last message is, if we press E after this is displayed, it closes the message
+message_end = 1; //this defines what the last message is, if we press E after this is displayed, it closes the message
 message_draw = ""; //this is what we 'write' out. It's blank right now
 increase = 0.8; //the speed at which new characters are added
 characters = 0; //how many characters have already been drawn
