@@ -1,0 +1,11 @@
+message[0] = "This must have collapsed in the earthquake.";
+message[1] = "I can barely seen another hallway beyond.";
+message[2] = "There's gotta be another way to the other side.";
+message[3] = "";
+message[4] = "";
+message[5] = "";
+message[6] = "";
+message[7] = "";
+message[8] = "";
+message[9] = "";
+message_end = 2;

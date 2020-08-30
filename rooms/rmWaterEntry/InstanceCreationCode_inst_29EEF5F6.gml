@@ -1,0 +1,11 @@
+depth = -1000;
+message[0] = "Just my luck, this door is stuck.";
+message[1] = "I don't think this is the exit though. ";
+message[2] = "Worth a shot trying again, I guess.";
+message[3] = "Still stuck though.";
+lockID = "none";
+propID = "none";
+initCheckSwitch = true;
+lockStatus = true;
+visible = true;
+message_end = 1;

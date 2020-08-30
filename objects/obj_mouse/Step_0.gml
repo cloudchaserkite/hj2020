@@ -31,6 +31,8 @@ else if place_meeting(x,y,obj_ragdoll){sprite_index = spr_Eye;}
 else if place_meeting(x,y,obj_record){sprite_index = spr_Eye;}
 else if place_meeting(x,y,obj_recordCorrect){sprite_index = spr_Eye;}
 else if place_meeting(x,y,obj_courtYardKey){sprite_index = spr_hand;}
+else if place_meeting(x,y,obj_courtyardItem){sprite_index = spr_hand;}
+else if place_meeting(x,y,obj_courtyardDoor){sprite_index = spr_Eye;}
 
 
 else{sprite_index = spr_mouseCursor;}
@@ -55,13 +57,22 @@ if mouseMode == "useItem"{
 		itemID = "Sewing Scissors";
 	        // code here
 	        break;
+		case "Courtyard Key":
+		itemID = "Courtyard Key";
+	        // code here
+	        break;
 	    default:
 	        // code here
 	        break;
 	}
 	if mouse_check_button_pressed(mb_left){
 	var check = instance_create_depth(obj_mouse.x,obj_mouse.y,-200,obj_itemUseCheck);
-	with(check){itemID = other.itemID;}}
+	with(check){itemID = other.itemID;}
+	
+	itemID = "none";
+	obj_player.inventory[? "invHeld"] = "none";
+	mouseMode = "normal";
+	}
 	
 	
 

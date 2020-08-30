@@ -9,6 +9,6 @@ lockID = "Courtyard Key";
 propID = "none";
 initCheckSwitch = false;
 lockStatus = true;
-visible = true;
+
 message_end = 1;
 

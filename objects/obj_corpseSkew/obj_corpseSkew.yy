@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_corpseSke",
-    "path": "sprites/spr_corpseSke/spr_corpseSke.yy",
+    "name": "spr_monster",
+    "path": "sprites/spr_monster/spr_monster.yy",
   },
   "solid": false,
   "visible": true,

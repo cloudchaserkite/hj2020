@@ -22,4 +22,5 @@ image_speed = .25;
 lobbySeen = false;
 ragDollSeen = false;
 recordSeen = false;
+ghostSeen = false;
 #endregion

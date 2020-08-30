@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndDoorClose.wav",
-  "duration": 1.006021,
+  "duration": 1.421,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

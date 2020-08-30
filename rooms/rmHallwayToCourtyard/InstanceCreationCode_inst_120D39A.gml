@@ -1,5 +1,5 @@
 rm = room;
 dest = rmCourtyardEntry;
 altdest = "";
-destx = 907;
-desty = 661;
+destx = 909;
+desty = 658;

@@ -1,4 +1,4 @@
-
+alarm[0] = 3*room_speed;
 image_speed = .125;
 draw_set_font(fnt);
 //write your messages in an array, starting at 0, like so

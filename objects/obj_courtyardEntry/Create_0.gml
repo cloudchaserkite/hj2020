@@ -1,6 +1,7 @@
+audio_play_sound(sndGlassBreak,1,false);
 rm = room;
-dest = rmLobby;
+dest = rmCourtyard;
 altdest = "";
-destx = 170;
-desty = 714;
+destx = 240;
+desty = 679;
 
