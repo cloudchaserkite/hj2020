@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 depth = -1000;
-message[0] = "An old Potted Plant.";
-message[1] = "There's something sticking out of the dirt... ";
-message[2] = "A potted plant.";
-message[3] = "Looks like something is buried here.";
+message[0] = "That is a very dead plant. ";
+message[1] = "Something in the dirt is glinting in the light. ";
+message[2] = "";
+message[3] = "";
 lockID = "crowbar";
 propID = "none";
 dolldropped = false;
