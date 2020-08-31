@@ -21,6 +21,7 @@ if (other.itemID == lockID) and (initCheckSwitch == false){lockStatus = false; s
 	}}
 	
 	else if(room == rmEntrance){
+		
 	var fade = instance_create_depth(obj_player.x,obj_player.y,-200,obj_fadein);
 
 	var dtd = instance_create_depth(obj_player.x,obj_player.y,-200,obj_DTD);

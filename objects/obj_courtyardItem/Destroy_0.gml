@@ -10,5 +10,5 @@ message_end = 2;
 
 }
 audio_play_sound(sndClosureCalling,3,false);
-
-instance_create_depth(222,640,-1000,obj_corpseSkew);
+obj_player.itemsCollected = true;
+//instance_create_depth(222,640,-1000,obj_corpseSkew);

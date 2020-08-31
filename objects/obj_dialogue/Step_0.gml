@@ -6,11 +6,11 @@ if (characters < message_length) { //if current character count is less than the
     characters += increase * (1 + hold); //increase speed based on hold
    var flip = choose(1,2);
    if(flip == 1){}
-    audio_play_sound(snd_junVoice,2,false);
+    //audio_play_sound(snd_junVoice,2,false);
     message_draw = string_copy(message[message_current], 0, characters); //copy string to current character
 } 
 else { //if current character is more than the amount in the current message
-    if (keyboard_check_pressed(ord("E"))) { //if we press E...
+    if (keyboard_check_pressed(ord("E")) or mouse_check_button_pressed(mb_left)) { //if we press E...
         if (message_current < message_end) { //if there are more messages left to show (0 -> 6, in our case)
             alarm[0] = 3*room_speed;
 			message_current += 1; //increase the message by 1

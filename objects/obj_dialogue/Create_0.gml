@@ -1,6 +1,8 @@
 alarm[0] = 3*room_speed;
 image_speed = .125;
 draw_set_font(fnt);
+
+
 //write your messages in an array, starting at 0, like so
 message[0] = "...Where...am I? I'm trying to see if even this will draw";
 message[1] = "I dont recognize this hanger...";

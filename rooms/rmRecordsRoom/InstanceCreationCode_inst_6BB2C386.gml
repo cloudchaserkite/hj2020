@@ -1,8 +1,8 @@
 depth = -1000;
-message[0] = "Empty...";
+message[0] = "I guarantee nothing in this building is going to help me with who I am.";
 
 
-
+snd = snd_vIrritated;
 initCheckSwitch = true;
 lockStatus = true;
 visible = true;

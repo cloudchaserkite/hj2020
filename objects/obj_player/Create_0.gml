@@ -23,4 +23,6 @@ lobbySeen = false;
 ragDollSeen = false;
 recordSeen = false;
 ghostSeen = false;
+pondSeen = false;
+itemsCollected = false;
 #endregion

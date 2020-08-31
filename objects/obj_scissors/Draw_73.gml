@@ -29,6 +29,8 @@ switch (answer) {
 
 }
 
+draw_text_ext_transformed(camera_get_view_x(view_camera[0])+(480/2),camera_get_view_y(view_camera[0])+270-(270/8)+16, string_hash_to_newline("Press E to Confirm."),3,1280,.2,.2,0);//draw the text at the coordinates
+
 
 
 

@@ -31,10 +31,10 @@ depth = -y;
 					else{
 	
 	
-					if keyW{isMoving = true; y-=1;if !audio_is_playing(snd_step){audio_play_sound(snd_step,1,false);}}
-					if keyS{isMoving = true; y+=1;if !audio_is_playing(snd_step){audio_play_sound(snd_step,1,false);}}
-					if keyA{isMoving = true; x-=1; image_xscale = -1;if !audio_is_playing(snd_step){audio_play_sound(snd_step,1,false);}}
-					if keyD{isMoving = true; x+=1; image_xscale = 1;if !audio_is_playing(snd_step){audio_play_sound(snd_step,1,false);}}
+					if keyW{isMoving = true; y-= moveSpeed;if !audio_is_playing(snd_step){audio_play_sound(snd_step,1,false);}}
+					if keyS{isMoving = true; y+=moveSpeed;if !audio_is_playing(snd_step){audio_play_sound(snd_step,1,false);}}
+					if keyA{isMoving = true; x-=moveSpeed; image_xscale = -1;if !audio_is_playing(snd_step){audio_play_sound(snd_step,1,false);}}
+					if keyD{isMoving = true; x+=moveSpeed; image_xscale = 1;if !audio_is_playing(snd_step){audio_play_sound(snd_step,1,false);}}
 		
 	
 	
@@ -97,4 +97,24 @@ audio_play_sound(bgmClosureBirdsWoodsOutside,2,true);
 
 #endregion
 
+if instance_exists(obj_dialogue){
+moveSpeed = .5;
+}
+
+if !instance_exists(obj_dialogue){
+moveSpeed = 1;
+}
+
+
+
+if room == rmCourtyardEntry{if audio_is_playing(sndClosureCalling){audio_stop_sound(sndClosureCalling);}
+if audio_is_playing(bgmClosureAmbience){audio_stop_sound(bgmClosureAmbience);}
+}
+
+if room == rmWaterEntry{if audio_is_playing(sndClosureCalling){audio_stop_sound(sndClosureCalling);}
+if audio_is_playing(bgmClosureAmbience){audio_stop_sound(bgmClosureAmbience);}
+}
+if room == rmWaterChildRoom{if audio_is_playing(sndClosureCalling){audio_stop_sound(sndClosureCalling);}
+if audio_is_playing(bgmClosureAmbience){audio_stop_sound(bgmClosureAmbience);}
+}
 

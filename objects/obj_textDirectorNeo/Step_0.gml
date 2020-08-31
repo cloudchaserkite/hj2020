@@ -20,7 +20,8 @@ if image_index == 4 {image_speed = .015;}
 
 
 if textComplete == true{
-if keyboard_check_pressed(ord("E")){
+if mouse_check_button_pressed(mb_left){
+	with(obj_startWall){instance_destroy();}
 instance_destroy();
 }
 

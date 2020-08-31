@@ -3,11 +3,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 if mouse_check_button_pressed(mb_left) and hasRead == false and !instance_exists(obj_dialogue) and other.mouseMode == "normal"{
-
+if(hasRead != true){
+	audio_play_sound(snd_vScaredStressed,3,false);
 var dia = instance_create_depth(x,y,-200,obj_dialogue);
+hasRead = true;
 
-
-		if(hasRead != true){
+		
 		with(dia){
 		message[0] = other.message[0];
 		message[1] = other.message[1];
@@ -21,7 +22,7 @@ var dia = instance_create_depth(x,y,-200,obj_dialogue);
 		message[9] = other.message[9];
 		message[10] = other.message[10];
 		message_end = other.message_end;
-		hasRead = true;
+		
 		instance_create_depth(x,y,-200,obj_recordRoomEvent);
 		}}
         
@@ -29,4 +30,25 @@ var dia = instance_create_depth(x,y,-200,obj_dialogue);
 	
 	
 }
+
+if mouse_check_button_pressed(mb_left) and hasRead == true and !instance_exists(obj_dialogue) and other.mouseMode == "normal"{
+
+var dia = instance_create_depth(x,y,-200,obj_dialogue);
+hasRead = true;
+
+		
+		with(dia){
+		message[0] = other.altmessage[0];
+		
+		message_end = 0;
+		
+	
+		}
+        
+	
+	
+	
+}
+
+
 

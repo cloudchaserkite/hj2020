@@ -91,6 +91,10 @@ if inventory[? "invOne"] != undefined{
 		draw_sprite_ext(spr_musicboxKey,0,vw-16-4,vy+32,1,1,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
+		case "Musicbox":
+		draw_sprite_ext(spr_musicBox,0,vw-16-4,vy+32,1,1,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;
 	    default:
 	        // code here
 	        break;
@@ -120,6 +124,10 @@ if inventory[? "invTwo"] != undefined{
 		draw_sprite_ext(spr_musicboxKey,0,vw-16-4,vy+64+20,1,1,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
+		case "Musicbox":
+		draw_sprite_ext(spr_musicBox,0,vw-16-4,vy+64+20,1,1,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;
 	    default:
 		
 	        // code here
@@ -147,6 +155,10 @@ if inventory[? "invThree"] != undefined{
 	        break;	
 	    case "Musicbox Key":
 		draw_sprite_ext(spr_musicboxKey,0,vw-16-4,vy+140,1,1,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;
+		 case "Musicbox":
+		draw_sprite_ext(spr_musicBox,0,vw-16-4,vy+140,1,1,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
 	    default:

@@ -1,5 +1,5 @@
 
-if (distance_to_object(obj_player) < (16*1))
+if (distance_to_object(obj_player) < (16*1) )
 {	
 	if room == rmEntrance{audio_play_sound(snd_nailPull,2,false);}
 	else{audio_play_sound(sndDoorClose,2,false);}

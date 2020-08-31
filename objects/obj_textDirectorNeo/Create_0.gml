@@ -7,3 +7,6 @@ textComplete = false;
 n = irandom_range(4,5);
 q = irandom_range(2,3);
 alarm[0] = 8;
+obj_player.canMove = false;
+
+if room == rmCourtyardEntry{sprite_index = spr_textSequenceTwo;}

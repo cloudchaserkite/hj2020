@@ -2,6 +2,7 @@ if !instance_exists(obj_dialogue){
 if (distance_to_object(obj_player) < (16*1))
 {			if room == rmLobby{
 			audio_play_sound(sndSqueak,3,false);}
+			audio_play_sound(snd,4,false);
 		    var speak = instance_create_depth(obj_player.x,obj_player.y,-1000,obj_dialogue);
 		with(speak){
 		message[0] = other.message[0];
@@ -16,11 +17,13 @@ if (distance_to_object(obj_player) < (16*1))
 		message[9] = other.message[9];
 		message_end = other.message_end;
 		obj_player.lobbySeen = true;
+		
 		}
 	
     instance_destroy();
     
     }
+
 
 
 

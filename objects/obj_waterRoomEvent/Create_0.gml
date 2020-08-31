@@ -1,4 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-eventTriggered = false;
+var windup = audio_play_sound(snd_musicboxWind,4,false);
+alarm[0] = 2;
