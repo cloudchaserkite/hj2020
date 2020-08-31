@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+//poop
 if (other.itemID == "Courtyard Key" or other.itemID == "crowbar"){
 	image_index = 0;
 	var door = instance_create_depth(x,y+22,-800,obj_courtyardEntry)
