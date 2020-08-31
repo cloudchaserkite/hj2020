@@ -65,6 +65,10 @@ if mouseMode == "useItem"{
 		itemID = "Courtyard Key";
 	        // code here
 	        break;
+		case "Old Iron Key":
+		itemID = "Old Iron Key";
+	        // code here
+	        break;
 	    default:
 	        // code here
 	        break;

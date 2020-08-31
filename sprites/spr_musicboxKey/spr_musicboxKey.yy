@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 2,
-  "bbox_right": 29,
+  "bbox_left": 26,
+  "bbox_right": 251,
   "bbox_top": 0,
-  "bbox_bottom": 30,
+  "bbox_bottom": 198,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 256,
+  "height": 256,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"65c034bb-8201-476f-b1a2-564f5a150685","path":"sprites/spr_musicboxKey/spr_musicboxKey.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"65c034bb-8201-476f-b1a2-564f5a150685","path":"sprites/spr_musicboxKey/spr_musicboxKey.yy",},"LayerId":{"name":"225d15f0-8be3-4bd9-8b12-2c5aa3b645ba","path":"sprites/spr_musicboxKey/spr_musicboxKey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_musicboxKey","path":"sprites/spr_musicboxKey/spr_musicboxKey.yy",},"resourceVersion":"1.0","name":"65c034bb-8201-476f-b1a2-564f5a150685","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"df793580-dd25-4450-8e67-d13d5aaf358f","path":"sprites/spr_musicboxKey/spr_musicboxKey.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"df793580-dd25-4450-8e67-d13d5aaf358f","path":"sprites/spr_musicboxKey/spr_musicboxKey.yy",},"LayerId":{"name":"7c53a30b-67e3-4744-a288-f528eac6d487","path":"sprites/spr_musicboxKey/spr_musicboxKey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_musicboxKey","path":"sprites/spr_musicboxKey/spr_musicboxKey.yy",},"resourceVersion":"1.0","name":"df793580-dd25-4450-8e67-d13d5aaf358f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_musicboxKey","path":"sprites/spr_musicboxKey/spr_musicboxKey.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"39ca1ede-4dd1-4d6f-94a7-409931431bc4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"65c034bb-8201-476f-b1a2-564f5a150685","path":"sprites/spr_musicboxKey/spr_musicboxKey.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"39330989-c144-438c-943d-26a11d1d4684","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"df793580-dd25-4450-8e67-d13d5aaf358f","path":"sprites/spr_musicboxKey/spr_musicboxKey.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 16,
-    "yorigin": 16,
+    "xorigin": 128,
+    "yorigin": 128,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_musicboxKey","path":"sprites/spr_musicboxKey/spr_musicboxKey.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"225d15f0-8be3-4bd9-8b12-2c5aa3b645ba","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7c53a30b-67e3-4744-a288-f528eac6d487","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Horror2020Convert",

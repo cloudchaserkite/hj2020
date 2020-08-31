@@ -10,3 +10,4 @@ alarm[0] = 8;
 obj_player.canMove = false;
 
 if room == rmCourtyardEntry{sprite_index = spr_textSequenceTwo;}
+if room == rmWaterEntry{sprite_index = spr_textSequenceThree;}

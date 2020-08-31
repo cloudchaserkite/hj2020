@@ -11,8 +11,10 @@ switch (answer) {
 				
 		if keyboard_check_pressed(ord("E")){
 			instance_create_depth(x,y,-800,obj_waterRoomEvent)
-				
-				
+			with(obj_player){
+			obj_player.inventory[? "invTwo"] = "Old Iron Key";
+			obj_player.inventory[? "invThree"] = "none";}
+				obj_player.canMove = true;
 			}
 			
 			

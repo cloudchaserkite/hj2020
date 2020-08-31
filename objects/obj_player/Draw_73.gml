@@ -75,7 +75,7 @@ if inventory[? "invOne"] != undefined{
 	        // code here
 	        break;
 		case "crowbar":
-		draw_sprite_ext(spr_crowbar,0,vw-16-4,vy+32,1,1,0,c_white,1);//Item Slot Held
+		draw_sprite_ext(spr_neoPrybar,0,vw-16-4,vy+32,1/6,1/6,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
 		case "Sewing Scissors":
@@ -84,15 +84,19 @@ if inventory[? "invOne"] != undefined{
 	        break;
 			
 		case "Courtyard Key":
-		draw_sprite_ext(spr_recordsRoomKey,0,vw-16-4,vy+32,1,1,0,c_white,1);//Item Slot Held
+		draw_sprite_ext(spr_recordsRoomKey,0,vw-16-4,vy+32,1/6,1/6,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
 		case "Musicbox Key":
-		draw_sprite_ext(spr_musicboxKey,0,vw-16-4,vy+32,1,1,0,c_white,1);//Item Slot Held
+		draw_sprite_ext(spr_musicboxKey,0,vw-16-4,vy+32,1/6,1/6,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
 		case "Musicbox":
-		draw_sprite_ext(spr_musicBox,0,vw-16-4,vy+32,1,1,0,c_white,1);//Item Slot Held
+		draw_sprite_ext(spr_neoMusicBox,0,vw-16-4,vy+32,1/15,1/15,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;
+		case "Old Iron Key":
+		draw_sprite_ext(spr_oldIronKey,0,vw-16-4,vy+32,1/6,1/6,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
 	    default:
@@ -117,15 +121,19 @@ if inventory[? "invTwo"] != undefined{
 	        // code here
 	        break;
 		case "Courtyard Key":
-		draw_sprite_ext(spr_recordsRoomKey,0,vw-16-4,vy+64+20,1,1,0,c_white,1);//Item Slot Held
+		draw_sprite_ext(spr_recordsRoomKey,0,vw-16-4,vy+64+20,1/6,1/6,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
 			case "Musicbox Key":
-		draw_sprite_ext(spr_musicboxKey,0,vw-16-4,vy+64+20,1,1,0,c_white,1);//Item Slot Held
+		draw_sprite_ext(spr_musicboxKey,0,vw-16-4,vy+64+20,1/6,1/6,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
 		case "Musicbox":
-		draw_sprite_ext(spr_musicBox,0,vw-16-4,vy+64+20,1,1,0,c_white,1);//Item Slot Held
+		draw_sprite_ext(spr_neoMusicBox,0,vw-16-4,vy+64+20,1/15,1/15,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;
+		case "Old Iron Key":
+		draw_sprite_ext(spr_oldIronKey,0,vw-16-4,vy+64+20,1/6,1/6,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
 	    default:
@@ -154,11 +162,15 @@ if inventory[? "invThree"] != undefined{
 	        // code here
 	        break;	
 	    case "Musicbox Key":
-		draw_sprite_ext(spr_musicboxKey,0,vw-16-4,vy+140,1,1,0,c_white,1);//Item Slot Held
+		draw_sprite_ext(spr_musicboxKey,0,vw-16-4,vy+140,1/6,1/6,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
 		 case "Musicbox":
-		draw_sprite_ext(spr_musicBox,0,vw-16-4,vy+140,1,1,0,c_white,1);//Item Slot Held
+		draw_sprite_ext(spr_neoMusicBox,0,vw-16-4,vy+140,1/15,1/15,0,c_white,1);//Item Slot Held
+	        // code here
+	        break;
+		case "Old Iron Key":
+		draw_sprite_ext(spr_oldIronKey,0,vw-16-4,vy+140,1/6,1/6,0,c_white,1);//Item Slot Held
 	        // code here
 	        break;
 	    default:

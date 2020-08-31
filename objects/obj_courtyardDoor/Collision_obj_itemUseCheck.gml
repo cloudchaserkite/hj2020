@@ -7,9 +7,9 @@ if (other.itemID == "Courtyard Key" or other.itemID == "crowbar"){
 	with(door){image_xscale = 1.5; image_yscale = 1.5;}
 	instance_destroy();
 	with(obj_player){
-	if inventory[? "invOne"] == "Courtyard Key"{inventory[? "invOne"] = "none";}
-	if inventory[? "invTwo"] == "Courtyard Key"{inventory[? "invOne"] = "none";}
-	if inventory[? "invThree"] == "Courtyard Key"{inventory[? "invOne"] = "none";}
+	if inventory[? "invOne"] == "Courtyard Key"{inventory[? "invOne"] = "nothing";}
+	if inventory[? "invTwo"] == "Courtyard Key"{inventory[? "invTwo"] = "nothing";}
+	if inventory[? "invThree"] == "Courtyard Key"{inventory[? "invThree"] = "nothing";}
 	}
 	
 	

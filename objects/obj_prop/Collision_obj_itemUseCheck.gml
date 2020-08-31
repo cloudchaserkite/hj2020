@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (other.itemID == lockID) and (initCheckSwitch == false){lockStatus = false; sprite_index = spr_altarGlow;
+	
+	
 	with(obj_player){
 		if(room != rmEntrance){
 	switch (lastSelected) {
@@ -18,7 +20,11 @@ if (other.itemID == lockID) and (initCheckSwitch == false){lockStatus = false; s
 			inventory[? "invThree"] = "nothing";
 	        break;
 	   
-	}}
+	}
+	
+	var text = instance_create_depth(x,y,-800,obj_textDirectorNeo);
+	
+	}
 	
 	else if(room == rmEntrance){
 		
