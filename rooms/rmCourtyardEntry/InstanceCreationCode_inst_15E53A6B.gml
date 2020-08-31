@@ -1,6 +1,6 @@
-message[0] = "This must have collapsed in the earthquake.";
-message[1] = "I can barely see another hallway beyond.";
-message[2] = "There's gotta be another way to the other side.";
+message[0] = "Crap, I need to get out the window back there. ";
+message[1] = "What if that thing catches up with me?";
+message[2] = "";
 message[3] = "";
 message[4] = "";
 message[5] = "";

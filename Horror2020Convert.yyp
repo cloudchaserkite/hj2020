@@ -103,7 +103,6 @@
     {"id":{"name":"spr_neoMusicBox","path":"sprites/spr_neoMusicBox/spr_neoMusicBox.yy",},"order":48,},
     {"id":{"name":"obj_rHall_DoorTwo","path":"objects/obj_rHall_DoorTwo/obj_rHall_DoorTwo.yy",},"order":43,},
     {"id":{"name":"obj_sound","path":"objects/obj_sound/obj_sound.yy",},"order":9,},
-    {"id":{"name":"Sprite40","path":"sprites/Sprite40/Sprite40.yy",},"order":42,},
     {"id":{"name":"spr_phone","path":"sprites/spr_phone/spr_phone.yy",},"order":26,},
     {"id":{"name":"bgm_minaRedeemed","path":"sounds/bgm_minaRedeemed/bgm_minaRedeemed.yy",},"order":45,},
     {"id":{"name":"obj_itemPickup","path":"objects/obj_itemPickup/obj_itemPickup.yy",},"order":10,},
