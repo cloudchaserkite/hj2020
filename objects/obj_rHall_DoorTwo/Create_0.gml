@@ -1,11 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-message[0] = "This door says CLOSET.";
-message[1] = "It'll have brooms, not birth records.";
+message[0] = "This door is locked.";
+message[1] = " Shining my flashlight in there, it looks pretty empty.";
 
-altmessage[0] = "Go further into the building?";
-altmessage[1] = "Nope.";
+altmessage[0] = "This isn't the exit.";
+altmessage[1] = "I need to get out of the building.";
 
 message_end = 1;
 hasRead = false;
 depth = -1000;
+
