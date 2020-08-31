@@ -34,6 +34,7 @@ else if place_meeting(x,y,obj_courtYardKey){sprite_index = spr_hand;}
 else if place_meeting(x,y,obj_courtyardItem){sprite_index = spr_hand;}
 else if place_meeting(x,y,obj_courtyardDoor){sprite_index = spr_Eye;}
 else if place_meeting(x,y,obj_rHall_DoorOne){sprite_index = spr_Eye;}
+else if place_meeting(x,y,obj_rHall_DoorTwo){sprite_index = spr_Eye;}
 else if place_meeting(x,y,obj_wHall_DoorOne){sprite_index = spr_Eye;}
 else if place_meeting(x,y,obj_wHall_DoorTwo){sprite_index = spr_Eye;}
 
