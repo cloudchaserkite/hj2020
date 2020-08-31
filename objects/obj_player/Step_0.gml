@@ -43,6 +43,8 @@ depth = -y;
 			if room == rmEntrance and !audio_is_playing(snd_step){
 			audio_play_sound(snd_step,3,false);
 			
+			
+			
 			}}
 		if !keyW and !keyA and !keyS and !keyD{isMoving = false;}
 		if isMoving == false{image_speed = .25; sprite_index = spr_AlyssaIdle;}
@@ -118,3 +120,8 @@ if room == rmWaterChildRoom{if audio_is_playing(sndClosureCalling){audio_stop_so
 if audio_is_playing(bgmClosureAmbience){audio_stop_sound(bgmClosureAmbience);}
 }
 
+
+
+
+
+	if !place_meeting(x,y,obj_waterstep) audio_stop_sound(snd_waterWade); //audio_stop_sound(snd_runWater);
