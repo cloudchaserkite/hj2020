@@ -11,6 +11,7 @@ message_end = 1;
 }
 
 with(obj_player){
+	y = 384;
 direction = 180;
 speed = 2;
 
