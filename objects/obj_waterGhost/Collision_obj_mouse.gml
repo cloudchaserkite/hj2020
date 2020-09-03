@@ -8,7 +8,10 @@ var dia = instance_create_depth(x,y,-200,obj_dialogue);
 with(dia){
 message[0] = other.message[0];
 message[1] = other.message[1];
-message_end = 1;
+message[2] = other.message[2];
+message[3] = other.message[3];
+message[4] = other.message[4];
+message_end = 4;
 
 }
 
