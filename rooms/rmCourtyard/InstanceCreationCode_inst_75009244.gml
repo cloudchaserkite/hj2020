@@ -1,0 +1,12 @@
+message[0] = "Seeing the pond makes me feel... sick.";
+message[1] = "There are walls on every side of this courtyard.";
+message[2] = "There's an old tower above it all.";
+message[3] = "";
+message[4] = "";
+message[5] = "";
+message[6] = "";
+message[7] = "";
+message[8] = "";
+message[9] = "";
+message_end = 2;
+snd = snd_vNah;
