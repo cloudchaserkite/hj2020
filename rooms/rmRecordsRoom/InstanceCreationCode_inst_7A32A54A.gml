@@ -1,6 +1,5 @@
 depth = -1000;
-message[0] = "This is mostly empty, except for an empty vodka bottle.";
-
+message[0] = "This is mostly cleared, except for an empty vodka bottle.";
 
 snd = snd_vThinking;
 initCheckSwitch = true;

@@ -9,7 +9,7 @@ if room == rmWaterEntry{audio_play_sound(bgmClosureAmbience,3,true);}
 if room == rmRecordsRoom{
 	var dia = instance_create_depth(x,y,-800,obj_dialogue);
 	with(dia){
-	message[0] = "Some kind of office.";
+	message[0] = "This is some kind of office.";
 	message[1] = "I'm just going to tell him I found the records room.";
 	message_end = 1;
 	}

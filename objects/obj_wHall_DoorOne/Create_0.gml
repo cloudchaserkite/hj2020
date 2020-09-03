@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-message[0] = "Just my luck, this door is stuck.";
-message[1] = "I don't think this is the exit though. ";
-altmessage[0] = "Worth a shot trying again, I guess.";
-altmessage[1] = "Still stuck though.";
+message[0] = "Jammed.";
+message[1] = "The earthquake shook the doorframe down.";
+altmessage[0] = "Still stuck.";
+altmessage[1] = "At least there are no creepy holes in this hall.";
 
 
 message_end = 1;

@@ -1,4 +1,5 @@
-message[0] = "The Entrance is completely blocked.";
-message[1] = "Doesn't look like I'll be leaving this way.";
-message[2] = "Maybe there's another way outside.";
-message_end = 2;
+message[0] = "Really?!";
+message[1] = "I should have known.";
+message[2] = "MY luck plus creepy abandoned orphanage equals split-second earthquake.";
+message[3] = "Now I have to find ANOTHER way out."
+message_end = 3;
