@@ -16,8 +16,8 @@ switch (initCheckSwitch) {
 		}
         break;
 	 case false:
-        with(dia){message[0] = other.message[2];
-		message[1] = other.message[3];
+        with(dia){message[0] = other.message[0];
+		message[1] = other.message[1];
 		message_end = 1;}
         break;
     default:

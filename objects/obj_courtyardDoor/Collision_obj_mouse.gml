@@ -10,14 +10,14 @@ var dia = instance_create_depth(x,y,-200,obj_dialogue);
 switch (initCheckSwitch) {
     case true:
 		with(dia){message[0] = other.message[0];
-		message[1] = other.message[1];
+		message[1] = other.message[0];
 		message_end = 1;
 		
 		}
         break;
 	 case false:
-        with(dia){message[0] = other.message[2];
-		message[1] = other.message[3];
+        with(dia){message[0] = other.message[1];
+		message[1] = other.message[2];
 		message_end = 1;}
         break;
     default:

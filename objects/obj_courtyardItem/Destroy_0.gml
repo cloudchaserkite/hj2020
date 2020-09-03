@@ -3,9 +3,9 @@
 
 var speak = instance_create_depth(obj_player.x,obj_player.y,-1000,obj_dialogue);
 with(speak){
-message[0] = "...It's much heavier than it looks, I had to yank it free from something.";
-message[1] = "An old wind-up key...maybe to a music box...?";
-message[2] = "There's that strange sound again...";
+message[0] = "The key fell between the bones of her ribs.";
+message[1] = "It's covered in silt."
+message[2] = "I only found it because it's attached to a necklace she wore.";
 message_end = 2;
 
 }

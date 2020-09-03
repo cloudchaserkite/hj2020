@@ -8,4 +8,4 @@ message[6] = "";
 message[7] = "";
 message[8] = "";
 message[9] = "";
-message_end = 2;
+message_end = 1;

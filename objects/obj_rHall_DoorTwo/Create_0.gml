@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 message[0] = "This door says CLOSET.";
-message[1] = "It'll have brooms, not birth records.";
+message[1] = "It'll probably have brooms, not birth records.";
 
 altmessage[0] = "This isn't the exit.";
-altmessage[1] = "I need to get out of the building.";
+altmessage[1] = "I've got to go, what if there's an aftershock?";
 
 message_end = 1;
 hasRead = false;

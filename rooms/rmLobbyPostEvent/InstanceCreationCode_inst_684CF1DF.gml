@@ -1,3 +1,3 @@
-message[0] = "It's all toppled down.";
-message[1] = " I can't even see the bottom.";
+message[0] = "The middle of this room fell.";
+message[1] = "Weird, I can't see the next floor down.";
 message_end = 1;
