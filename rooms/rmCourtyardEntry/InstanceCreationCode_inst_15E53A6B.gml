@@ -9,3 +9,4 @@ message[7] = "";
 message[8] = "";
 message[9] = "";
 message_end = 1;
+snd = snd_scared_11;

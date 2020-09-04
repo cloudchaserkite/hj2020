@@ -9,4 +9,4 @@ altmessage[1] = "I've got to go, what if there's an aftershock?";
 message_end = 1;
 hasRead = false;
 depth = -1000;
-
+snd = snd_thinking_14;

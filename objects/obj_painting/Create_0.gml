@@ -2,11 +2,11 @@
 // You can write your code in this editor
 t = false;
 image_speed = 0;
-message[0] = "I could have sworn this tore right in front of me.";
-message[1] = "Wait, was this painting always here?";
+message[0] = "This painting was always torn and on this wall.";
+message[1] = "Nothing else would make sense.";
 
-altmessage[0] = "A painting with tears and fire damage...";
-altmessage[1] = "I could have sworn it wasn't here before.";
+altmessage[0] = "The painting has tears and fire damage...";
+altmessage[1] = "How did I not notice it before?";
 
 message_end = 1;
 hasRead = false;

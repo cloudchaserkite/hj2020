@@ -12,3 +12,4 @@ lockStatus = true;
 
 message_end = 1;
 
+snd = snd_scared_14;
