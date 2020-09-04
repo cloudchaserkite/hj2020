@@ -9,4 +9,4 @@ altmessage[1] = "I'm leaving.";
 message_end = 1;
 hasRead = false;
 depth = -1000;
-
+snd = snd_vThinking2;

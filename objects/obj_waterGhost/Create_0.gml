@@ -10,4 +10,4 @@ message_end = 4;
 pickupPrompt = false;
 hasRead = false;
 depth = -1000;
-
+snd = snd_what_2;

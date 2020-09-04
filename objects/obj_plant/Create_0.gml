@@ -14,3 +14,4 @@ visible = true;
 message_end = 1;
 image_index = 0;
 image_speed = 0;
+snd = snd_thinking_10;

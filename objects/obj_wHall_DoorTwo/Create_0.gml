@@ -9,4 +9,4 @@ altmessage[1] = "Hope nothing's important in there.";
 message_end = 1;
 hasRead = false;
 depth = -1000;
-snd = snd_vIrritated;
+snd = snd_no_8;

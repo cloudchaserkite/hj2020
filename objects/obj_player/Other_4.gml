@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if room != rmWaterChildRoom{audio_stop_sound(snd_waterTrickle);audio_stop_sound(bgmClosureMina);}
-if room == rmWaterChildRoom{audio_play_sound(snd_waterTrickle,3,true);
+if room != rmWaterChildRoom{audio_stop_sound(snd_water_drops1);audio_stop_sound(bgmClosureMina);}
+if room == rmWaterChildRoom{audio_play_sound(snd_water_drops1,3,true);
 							}
 								
 if room == rmWaterEntry{audio_play_sound(bgmClosureAmbience,3,true);}

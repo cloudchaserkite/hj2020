@@ -1,7 +1,7 @@
 if !instance_exists(obj_dialogue){
 if (distance_to_object(obj_player) < (16*1))
-{			if room == rmLobby{
-			audio_play_sound(sndSqueak,3,false);}
+{	//		if room == rmLobby{
+//			audio_play_sound(sndSqueak,3,false);}
 			if room == rmHallwayToCourtyard and obj_player.x < 400 {
 			audio_play_sound(snd_vScared2,3,false);
 			instance_create_depth(x,y,-900,obj_screenshake);

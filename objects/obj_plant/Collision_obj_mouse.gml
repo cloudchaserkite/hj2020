@@ -3,7 +3,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if mouse_check_button_pressed(mb_left) and image_index != 1 and !instance_exists(obj_dialogue) and other.mouseMode == "normal"{
-
+	audio_play_sound(snd,3,false);
 var dia = instance_create_depth(x,y,-200,obj_dialogue);
 
 

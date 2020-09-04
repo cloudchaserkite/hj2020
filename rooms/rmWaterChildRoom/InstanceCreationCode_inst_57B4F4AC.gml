@@ -1,6 +1,6 @@
-message[0] = "A music box is in the water."
+message[0] = "My flashlight keeps flickering around the music box."
 message[1] = "Somehow, I don't see any rust on it."
-message[2] = "My flashlight keeps flickering around the box.";
+message[2] = "";
 message[3] = "";
 message[4] = "";
 message[5] = "";
@@ -8,5 +8,5 @@ message[6] = "";
 message[7] = "";
 message[8] = "";
 message[9] = "";
-message_end = 2;
+message_end = 1;
 snd = snd_vNah;

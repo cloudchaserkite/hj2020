@@ -132,6 +132,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":129.0,"y":151.0,"resourceVersion":"1.0","name":"inst_603A347","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":676.0,"y":475.0,"resourceVersion":"1.0","name":"inst_588706DE","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_textDirectorNeo","path":"objects/obj_textDirectorNeo/obj_textDirectorNeo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":912.0,"y":448.0,"resourceVersion":"1.0","name":"inst_589C15C5","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_quoteTrigger","path":"objects/obj_quoteTrigger/obj_quoteTrigger.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":4.76470566,"scaleY":1.94117641,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":510.117645,"y":303.529419,"resourceVersion":"1.0","name":"inst_6EE5E5E4","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"tileset0","path":"tilesets/tileset0/tileset0.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":64,"SerialiseHeight":48,"TileSerialiseData":[
 44,45,44,45,44,45,44,45,252,44,45,44,45,44,45,44,45,44,45,44,45,42,82,84,85,82,82,82,43,42,42,42,42,42,42,42,83,83,83,83,83,42,43,44,45,44,45,44,45,44,45,44,45,44,45,44,45,44,45,44,45,44,45,44,
@@ -207,6 +208,7 @@
     {"name":"inst_603A347","path":"rooms/rmEntrance/rmEntrance.yy",},
     {"name":"inst_588706DE","path":"rooms/rmEntrance/rmEntrance.yy",},
     {"name":"inst_589C15C5","path":"rooms/rmEntrance/rmEntrance.yy",},
+    {"name":"inst_6EE5E5E4","path":"rooms/rmEntrance/rmEntrance.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
