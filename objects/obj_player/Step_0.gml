@@ -118,3 +118,9 @@ if room == rmWaterChildRoom{if audio_is_playing(sndClosureCalling){audio_stop_so
 if audio_is_playing(bgmClosureAmbience){audio_stop_sound(bgmClosureAmbience);}
 }
 
+if place_meeting(x,y,obj_water_wade)
+{if audio_is_playing(snd_step){audio_stop_sound(snd_step);}}
+
+if !place_meeting(x,y,obj_water_wade)
+{if audio_is_playing(snd_water_wade){audio_stop_sound(snd_water_wade);};}
+if isMoving == false{audio_stop_sound(snd_water_wade);}

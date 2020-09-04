@@ -4,7 +4,7 @@
     "path": "sprites/spr_waterstep/spr_waterstep.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
