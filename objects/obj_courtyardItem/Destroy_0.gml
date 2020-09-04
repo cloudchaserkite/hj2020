@@ -9,6 +9,8 @@ message[2] = "I only found it because it's attached to a necklace she wore.";
 message_end = 2;
 snd = snd_scared_stressed_1;
 }
+audio_play_sound(snd_water_get_sound_4,3,false);
+//audio_play_sound(snd_water_pick_up_sound_3a,3,false);
 audio_play_sound(sndClosureCalling,3,false);
 obj_player.itemsCollected = true;
 //instance_create_depth(222,640,-1000,obj_corpseSkew);
