@@ -80,6 +80,7 @@
     {"id":{"name":"snd_no_8","path":"sounds/snd_no_8/snd_no_8.yy",},"order":70,},
     {"id":{"name":"bgmClosureAmbience","path":"sounds/bgmClosureAmbience/bgmClosureAmbience.yy",},"order":7,},
     {"id":{"name":"obj_main","path":"objects/obj_main/obj_main.yy",},"order":0,},
+    {"id":{"name":"rmHallwayToRecordsPostEvent","path":"rooms/rmHallwayToRecordsPostEvent/rmHallwayToRecordsPostEvent.yy",},"order":11,},
     {"id":{"name":"obj_tendril","path":"objects/obj_tendril/obj_tendril.yy",},"order":49,},
     {"id":{"name":"snd_scared_stressed_1","path":"sounds/snd_scared_stressed_1/snd_scared_stressed_1.yy",},"order":74,},
     {"id":{"name":"snd_no_way_2","path":"sounds/snd_no_way_2/snd_no_way_2.yy",},"order":66,},
@@ -197,6 +198,7 @@
     {"name":"rmLobbyPostEvent","path":"rooms/rmLobbyPostEvent/rmLobbyPostEvent.yy",},
     {"name":"rmHallwayToRecords","path":"rooms/rmHallwayToRecords/rmHallwayToRecords.yy",},
     {"name":"rmEnding","path":"rooms/rmEnding/rmEnding.yy",},
+    {"name":"rmHallwayToRecordsPostEvent","path":"rooms/rmHallwayToRecordsPostEvent/rmHallwayToRecordsPostEvent.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

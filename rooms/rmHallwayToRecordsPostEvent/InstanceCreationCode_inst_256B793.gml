@@ -1,0 +1,10 @@
+depth = -1000;
+message[0] = "This is it, the Records Room.";
+message[1] = "Door's locked, though. Maybe the key is somewhere nearby.";
+message[2] = "The Records Room, but the door's locked.";
+message[3] = "Maybe the key is somewhere nearby.";
+lockID = "Courtyard Key";
+initCheckSwitch = true;
+lockStatus = true;
+visible = false;
+message_end = 1;

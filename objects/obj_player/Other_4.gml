@@ -16,7 +16,7 @@ if room == rmRecordsRoom{
 	
 	audio_stop_sound(bgmClosureExplore); }
 if room == rmLobbyPostEvent{audio_stop_sound(bgmClosureExplore); if !instance_exists(obj_particleController){instance_create_depth(x,y,200,obj_particleController);}}
-if room == rmLobby{audio_stop_sound(bgmClosureBirdsWoodsOutside); audio_play_sound(bgmClosureExplore,5,true);}
+if room == rmLobby{audio_stop_sound(bgmClosureBirdsWoodsOutside); if !audio_is_playing(bgmClosureExplore) {audio_play_sound(bgmClosureExplore,5,true);}}
 if room == rmHallwayToRecords{ if obj_player.recordSeen == true{if !instance_exists(obj_particleController){instance_create_depth(x,y,200,obj_particleController);}}}
 if room == rmHallwayToCourtyard{ if obj_player.recordSeen == true{if !instance_exists(obj_particleController){instance_create_depth(x,y,200,obj_particleController);}}}
 
