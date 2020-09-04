@@ -9,5 +9,5 @@ q = irandom_range(2,3);
 alarm[0] = 8;
 obj_player.canMove = false;
 
-if room == rmCourtyardEntry{sprite_index = spr_textSequenceTwo;}
-if room == rmWaterEntry{sprite_index = spr_textSequenceThree;}
+if room == rmCourtyardEntry{sprite_index = spr_textSequenceTwo; depth = -1000;}
+if room == rmWaterEntry{sprite_index = spr_textSequenceThree; depth = -1000;}
